@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Almacen de computadoras</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <head>
+      <nav>
+        <a href="/">
+          <img src="./img/MARCA DE AGUA WIL.png" class="logo" alt="LOGO" height="100%" />
+        </a>
+        <div class="links">
+          <a href="/"> HOME </a>
+          <a href="/compra.html"> COMPRA </a>
+        </div>
+      </nav>
+    </head>
+    <!-- <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-3.10,77.45 C167.89,247.20 349.20,-49.98 502.54,129.77 L503.67,-6.41 L-1.97,-6.41 Z" style="stroke: none; fill: #08f;"></path></svg></div> -->
+    <main>
+      <h1>Almacén de computadoras</h1>
+      <article id="content">
+        <section>
+          <p>Ingresa la cantidad de computadores a comprar</p>
+          <input type="number" id="user-input"/>
+          <button id="calculate">Calcular</button>
+          <div id="results">
+            <p>valor de compra: $<span id="totalPrice"></span></p>
+            <p>valor descuento: $<span id="discountPrice"></span></p>
+            <p>Total: $<span id="finalPrice"></span></p>
+            <p id="message"></p>
+          </div>
+        </section>
+      </article>
+    </main>
+    <footer>
+      <p>Almacén de computadoras sprint 1 - Academia Geek - Creditos: Wildelmy Colina</p>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>
